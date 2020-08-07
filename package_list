@@ -9,3 +9,8 @@ Essentials:
 Setting up the desktop:
     xorg-server
     xorg-xinit
+    xorg-xrandr
+    bspwm
+    sxhkd
+    rxvt
+    dmenu
