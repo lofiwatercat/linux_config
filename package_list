@@ -13,4 +13,7 @@ Setting up the desktop:
     bspwm
     sxhkd
     rxvt
+    xrandr
     dmenu
+    firefox
+    feh
