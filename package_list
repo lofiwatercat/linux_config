@@ -1,0 +1,11 @@
+Essentials:
+    man-db
+    neovim
+    vim
+    vi
+    networkmanager
+    sudo
+    
+Setting up the desktop:
+    xorg-server
+    xorg-xinit
