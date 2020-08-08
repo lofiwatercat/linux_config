@@ -17,3 +17,6 @@ Setting up the desktop:
     dmenu
     firefox
     feh
+    pulseaudio
+    pulseaudio-alsa
+    alsa-utils
