@@ -1,0 +1,20 @@
+#Imap
+set imap_user='alan001tk@gmail.com'
+set folder='imaps://alan001tk@imap.gmail.com:993'
+set spoolfile='+INBOX'
+set imap_pass='ilroylgqnetbyfyx'
+
+#Smtp
+set from='alan001tk@gmail.com'
+set realname='Alan Tran-Kiem' 
+set smtp_url='smtp://alan001tk@smtp.gmail.com:587'
+set smtp_pass='ilroylgqnetbyfyx'
+set record=+Sent
+
+#Mailboxes
+set trash=+Trash
+set postponed=+Drafts
+
+mailboxes =INBOX =Sent =Trash =Draft
+
+#Colors
