@@ -33,3 +33,5 @@ Util:
     neomutt
     vim-plug(aur)
     zathura
+    pip
+    pynvim(pip)
