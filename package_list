@@ -19,13 +19,11 @@ Xorg:
     dmenu
     firefox
     feh
-    pulseaudio
-    pulseaudio-alsa
-    alsa-utils
 
 Wayland:
     alacritty
-    river-git
+    river-git or sway
+    bemenu
 
 Rice:
     
@@ -35,3 +33,6 @@ Util:
     zathura
     pip
     pynvim(pip)
+    alsa-utils
+    pulseaudio
+    pulseaudio-alsa
