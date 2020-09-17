@@ -1,1 +1,35 @@
+# No title bar
+window:
+    decorations: 'none'
+    padding:
+        x: 5
+        y: 5
+
+# Colors(Blossom)
+colors:
+    primary:
+        background: '#2F3842'
+        foreground: '#F2F2F4'
+
+    # Normal colors
+    normal:
+        black:      '#333B47'
+        red:        '#F05656'
+        green:      '#2CC46E'
+        yellow:     '#ECC46F'
+        blue:       '#6088DD'
+        magenta:    '#FA5477'
+        cyan:       '#64B9F2'
+        white:      '#D2D2D4'
+
+    # Bright colors
+    bright:
+        black:      '#424A56'
+        red:        '#FF6565'
+        green:      '#3BD37D'
+        yellow:     '#FBD37E'
+        blue:       '#6F97EC'
+        magenta:    '#FF5386'
+        cyan:       '#71C6FF'
+        white:      '#F1F1F3'
 
