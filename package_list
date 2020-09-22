@@ -24,6 +24,7 @@ Wayland:
     alacritty
     river-git or sway
     bemenu
+    waybar
 
 Rice:
     
@@ -37,4 +38,5 @@ Util:
     pulseaudio
     pulseaudio-alsa
     texlive-most
+    tllocalmgr(aur)
     
