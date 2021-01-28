@@ -11,14 +11,8 @@ Essentials:
 Xorg: 
     xorg-server
     xorg-xinit
-    xorg-xrandr
-    bspwm
-    sxhkd
-    rxvt
-    xrandr
-    dmenu
-    firefox
-    feh
+    webkit2gtk
+    
 
 Wayland:
     alacritty
