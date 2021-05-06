@@ -27,9 +27,15 @@ Plug 'sirver/ultisnips'
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'itchyny/lightline.vim'
+" Colorscheme
+Plug 'https://github.com/jsnal/vim-serape', { 'tag': 'v0.2.2' }
+Plug 'bluz71/vim-moonfly-colors'
 
 " End of plugin list
 call plug#end()
+
+" Colorscheme
+colorscheme moonfly 
 
 " Vimwiki
 let work_wiki={}
