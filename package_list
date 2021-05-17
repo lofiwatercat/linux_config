@@ -37,4 +37,5 @@ Util:
     pulseaudio-alsa
     texlive-most
     tllocalmgr(aur)
+    openssh
     
