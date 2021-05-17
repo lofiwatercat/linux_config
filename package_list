@@ -15,8 +15,11 @@ Xorg:
     
 
 Wayland:
-    alacritty
-    river-git or sway
+    foot (aur)
+        foot-terminfo (aur)
+        fcft (aur)
+        ttlist (aur)
+    river-git (aur) or sway
     bemenu
     waybar
 
