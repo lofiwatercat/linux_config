@@ -19,6 +19,7 @@ Wayland:
         foot-terminfo (aur)
         fcft (aur)
         ttlist (aur)
+        cmake
     river-git (aur) or sway
     bemenu
     waybar
