@@ -22,10 +22,6 @@ call plug#begin('~/.vim/plugged')
 " List of plugins
 Plug 'preservim/nerdtree'
 Plug 'vimwiki/vimwiki'
-Plug 'lervag/vimtex'
-Plug 'sirver/ultisnips'
-Plug 'vim-pandoc/vim-pandoc'
-Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'itchyny/lightline.vim'
 " Colorscheme
 Plug 'https://github.com/jsnal/vim-serape', { 'tag': 'v0.2.2' }
