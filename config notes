@@ -1,1 +1,1 @@
-
+need to export WLR_NO_HARDWARE_CURSORS=1 for mouse cursor
