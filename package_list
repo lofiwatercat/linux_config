@@ -6,7 +6,8 @@ Essentials:
     networkmanager
     sudo
     git
-    base-devel    
+    base-devel
+    grub
 
 Xorg: 
     xorg-server
