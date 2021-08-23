@@ -19,7 +19,6 @@ let g:netrw_liststyle=3
 let g:netrw_banner=0
 " Reduces size of netrw explorer
 let g:netrw_winsize=20
-" Makes it not compatible with Vi
 
 set noshowmode
 
