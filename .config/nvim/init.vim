@@ -13,6 +13,13 @@ set textwidth=80
 set nocompatible
 filetype plugin on
 set scrolloff=13
+" Makes netrw default to tree view
+let g:netrw_liststyle=3
+" Removes netrw banner
+let g:netrw_banner=0
+" Reduces size of netrw explorer
+let g:netrw_winsize=20
+" Makes it not compatible with Vi
 
 set noshowmode
 
@@ -20,7 +27,6 @@ set noshowmode
 call plug#begin('~/.vim/plugged')
 
 " List of plugins
-Plug 'preservim/nerdtree'
 Plug 'vimwiki/vimwiki'
 Plug 'itchyny/lightline.vim'
 " Colorscheme
