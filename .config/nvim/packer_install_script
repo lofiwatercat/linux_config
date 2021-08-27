@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# This script installs packer using yay
+yay -S nvim-packer-git

@@ -13,12 +13,10 @@ set textwidth=80
 set nocompatible
 filetype plugin on
 set scrolloff=13
-" Makes netrw default to tree view
+" Netrw stuff
 let g:netrw_liststyle=3
-" Removes netrw banner
 let g:netrw_banner=0
-" Reduces size of netrw explorer
-let g:netrw_winsize=20
+
 
 set noshowmode
 
