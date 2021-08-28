@@ -69,13 +69,25 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["lightline.vim"] = {
+  ["lualine.nvim"] = {
     loaded = true,
-    path = "/home/alan/.local/share/nvim/site/pack/packer/start/lightline.vim"
+    path = "/home/alan/.local/share/nvim/site/pack/packer/start/lualine.nvim"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/alan/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/alan/.local/share/nvim/site/pack/packer/start/packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/home/alan/.local/share/nvim/site/pack/packer/start/plenary.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/alan/.local/share/nvim/site/pack/packer/start/telescope.nvim"
   },
   ["vim-moonfly-colors"] = {
     loaded = true,

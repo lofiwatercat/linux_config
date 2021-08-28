@@ -1,4 +1,7 @@
 local opt = vim.opt
+local cmd = vim.cmd
+
+cmd 'colorscheme moonfly'
 
 -- Formatting 
 opt.expandtab = true
