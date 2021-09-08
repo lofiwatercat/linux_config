@@ -1,3 +1,5 @@
+--vim._update_package_paths()
+
 return require('packer').startup(function()
     use 'wbthomason/packer.nvim'
 
@@ -7,12 +9,12 @@ return require('packer').startup(function()
     use {
         'hoob3rt/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true},
-        config = require('plugin.lualine')
+        config = function() require ('plugin_configs.lualine') end
     }
     use {
         'nvim-telescope/telescope.nvim',
         requires = { {'nvim-lua/plenary.nvim'} },
-        config = require('plugin.telescope')
+        config = function() require ('plugin_configs.telescope') end
     }
 end)
 

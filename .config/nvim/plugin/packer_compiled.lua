@@ -70,6 +70,7 @@ time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["lualine.nvim"] = {
+    config = { "\27LJ\1\0026\0\0\2\0\2\0\0044\0\0\0%\1\1\0>\0\2\1G\0\1\0\27plugin_configs.lualine\frequire\0" },
     loaded = true,
     path = "/home/alan/.local/share/nvim/site/pack/packer/start/lualine.nvim"
   },
@@ -86,6 +87,7 @@ _G.packer_plugins = {
     path = "/home/alan/.local/share/nvim/site/pack/packer/start/plenary.nvim"
   },
   ["telescope.nvim"] = {
+    config = { "\27LJ\1\0028\0\0\2\0\2\0\0044\0\0\0%\1\1\0>\0\2\1G\0\1\0\29plugin_configs.telescope\frequire\0" },
     loaded = true,
     path = "/home/alan/.local/share/nvim/site/pack/packer/start/telescope.nvim"
   },
@@ -100,6 +102,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: lualine.nvim
+time([[Config for lualine.nvim]], true)
+try_loadstring("\27LJ\1\0026\0\0\2\0\2\0\0044\0\0\0%\1\1\0>\0\2\1G\0\1\0\27plugin_configs.lualine\frequire\0", "config", "lualine.nvim")
+time([[Config for lualine.nvim]], false)
+-- Config for: telescope.nvim
+time([[Config for telescope.nvim]], true)
+try_loadstring("\27LJ\1\0028\0\0\2\0\2\0\0044\0\0\0%\1\1\0>\0\2\1G\0\1\0\29plugin_configs.telescope\frequire\0", "config", "telescope.nvim")
+time([[Config for telescope.nvim]], false)
 if should_profile then save_profiles() end
 
 end)
