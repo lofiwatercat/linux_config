@@ -11,7 +11,8 @@ Essentials:
     rtw89 (for realtek8852)
     iwd
     dhcpcd
-    
+    openresolv
+    lsusb
 
 Xorg: 
     xorg-server
