@@ -3,12 +3,15 @@ Essentials:
     neovim
     vim
     vi
-    networkmanager
     sudo
     git
     base-devel
     grub
     efibootmgr
+    rtw89 (for realtek8852)
+    iwd
+    dhcpcd
+    
 
 Xorg: 
     xorg-server
