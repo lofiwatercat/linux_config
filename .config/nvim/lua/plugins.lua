@@ -3,18 +3,30 @@
 return require('packer').startup(function()
     use 'wbthomason/packer.nvim'
 
-    -- use 'https://github.com/jsnal/vim-serape', { 'tag': 'v0.2.2' }
+    -- Colorschemes
     use 'bluz71/vim-moonfly-colors'
     use 'https://github.com/jsnal/vim-serape'
-    use {
-        'hoob3rt/lualine.nvim',
-        requires = { 'kyazdani42/nvim-web-devicons', opt = true},
-        config = function() require ('plugin_configs.lualine') end
-    }
+
+    -- Telescope
     use {
         'nvim-telescope/telescope.nvim',
-        requires = { {'nvim-lua/plenary.nvim'} },
-        config = function() require ('plugin_configs.telescope') end
+        requires = { {'nvim-lua/plenary.nvim'} }
+    }
+
+    -- Treesitter
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = ':TSUpdate'
+    }
+    
+    -- Twilight
+    use {
+        "folke/twilight.nvim",
+        config = function()
+            require("twilight").setup{
+                -- config here
+            }
+        end
     }
 end)
 
