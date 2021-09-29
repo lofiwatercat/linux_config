@@ -1,1 +1,6 @@
 need to export WLR_NO_HARDWARE_CURSORS=1 for mouse cursor
+
+Networking - can refer to Insane Industries page
+Need to setup a symlink for resolved
+Need to edit some network files for networkd
+Need to edit iwd's main.conf file
