@@ -85,11 +85,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/alan/.local/share/nvim/site/pack/packer/start/telescope.nvim"
   },
-  ["twilight.nvim"] = {
-    config = { "\27LJ\1\2:\0\0\2\0\3\0\a4\0\0\0%\1\1\0>\0\2\0027\0\2\0002\1\0\0>\0\2\1G\0\1\0\nsetup\rtwilight\frequire\0" },
-    loaded = true,
-    path = "/home/alan/.local/share/nvim/site/pack/packer/start/twilight.nvim"
-  },
   ["vim-moonfly-colors"] = {
     loaded = true,
     path = "/home/alan/.local/share/nvim/site/pack/packer/start/vim-moonfly-colors"
@@ -101,10 +96,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: twilight.nvim
-time([[Config for twilight.nvim]], true)
-try_loadstring("\27LJ\1\2:\0\0\2\0\3\0\a4\0\0\0%\1\1\0>\0\2\0027\0\2\0002\1\0\0>\0\2\1G\0\1\0\nsetup\rtwilight\frequire\0", "config", "twilight.nvim")
-time([[Config for twilight.nvim]], false)
 if should_profile then save_profiles() end
 
 end)

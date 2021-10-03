@@ -1,7 +1,0 @@
-[user]
-    name = loFiWaterCat
-    email = alan001tk@gmail.
-[core]
-    editor = nvim
-[init]
-    defaultBranch = main

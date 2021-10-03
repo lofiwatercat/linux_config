@@ -5,7 +5,7 @@ return require('packer').startup(function()
 
     -- Colorschemes
     use 'bluz71/vim-moonfly-colors'
-    use 'https://github.com/jsnal/vim-serape'
+    -- use 'https://github.com/jsnal/vim-serape'
 
     -- Telescope
     use {
@@ -17,16 +17,6 @@ return require('packer').startup(function()
     use {
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
-    }
-    
-    -- Twilight
-    use {
-        "folke/twilight.nvim",
-        config = function()
-            require("twilight").setup{
-                -- config here
-            }
-        end
     }
 end)
 
