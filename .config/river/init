@@ -9,16 +9,21 @@ mod="Mod4"
 riverctl map normal $mod+Shift Return spawn foot
 
 # Configure resolution
-riverctl spawn 'wlr-randr --output eDP-1 --mode 2560x1600 120 Hz --scale 1.3'
+# riverctl spawn 'wlr-randr --output eDP-1 --mode 2560x1600 120 Hz --scale 1.3'
+riverctl spawn kanshi
+
+# Background image
+riverctl spawn 'swaybg -i ~/pictures/wallpapers/cats-fishing.png'
 
 # Configure laptop touchpad
 riverctl input 1267:12717:ELAN2841:00_04F3:31AD_Touchpad natural-scroll enabled
 riverctl input 1267:12717:ELAN2841:00_04F3:31AD_Touchpad tap enabled
-riverctl input 1267:12717:ELAN2841:00_04F3:31AD_Touchpad middle-emulation
-enabled
+riverctl input 1267:12717:ELAN2841:00_04F3:31AD_Touchpad \
+    middle-emulation enabled
 
 # Screenshot with grim and slurp
-riverctl map normal Control+Shift S spawn 'grim -g "$(slurp)" ~/pictures/$(date +"%s_grim.png")'
+riverctl map normal Control+Shift S spawn 'grim -g "$(slurp)" \
+    ~/pictures/$(date +"%s_grim.png")'
 
 # run waybar
 riverctl spawn waybar

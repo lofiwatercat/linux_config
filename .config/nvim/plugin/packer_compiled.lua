@@ -69,9 +69,26 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["nvim-treesitter"] = {
+  ["feline.nvim"] = {
+    config = { "\27LJ\1\2.\0\0\2\0\2\0\0044\0\0\0%\1\1\0>\0\2\1G\0\1\0\19plugins/feline\frequire\0" },
     loaded = true,
-    path = "/home/alan/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+    path = "/home/alan/.local/share/nvim/site/pack/packer/start/feline.nvim"
+  },
+  ["glow.nvim"] = {
+    loaded = true,
+    path = "/home/alan/.local/share/nvim/site/pack/packer/start/glow.nvim"
+  },
+  indentLine = {
+    loaded = true,
+    path = "/home/alan/.local/share/nvim/site/pack/packer/start/indentLine"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/home/alan/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/alan/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -85,17 +102,26 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/alan/.local/share/nvim/site/pack/packer/start/telescope.nvim"
   },
+  ["twilight.nvim"] = {
+    config = { "\27LJ\1\0020\0\0\2\0\2\0\0044\0\0\0%\1\1\0>\0\2\1G\0\1\0\21plugins/twilight\frequire\0" },
+    loaded = true,
+    path = "/home/alan/.local/share/nvim/site/pack/packer/start/twilight.nvim"
+  },
   ["vim-moonfly-colors"] = {
     loaded = true,
     path = "/home/alan/.local/share/nvim/site/pack/packer/start/vim-moonfly-colors"
-  },
-  ["vim-serape"] = {
-    loaded = true,
-    path = "/home/alan/.local/share/nvim/site/pack/packer/start/vim-serape"
   }
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: twilight.nvim
+time([[Config for twilight.nvim]], true)
+try_loadstring("\27LJ\1\0020\0\0\2\0\2\0\0044\0\0\0%\1\1\0>\0\2\1G\0\1\0\21plugins/twilight\frequire\0", "config", "twilight.nvim")
+time([[Config for twilight.nvim]], false)
+-- Config for: feline.nvim
+time([[Config for feline.nvim]], true)
+try_loadstring("\27LJ\1\2.\0\0\2\0\2\0\0044\0\0\0%\1\1\0>\0\2\1G\0\1\0\19plugins/feline\frequire\0", "config", "feline.nvim")
+time([[Config for feline.nvim]], false)
 if should_profile then save_profiles() end
 
 end)
