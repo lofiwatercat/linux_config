@@ -16,3 +16,14 @@ alias mp='ncmpcpp'
 
 alias f='nvim $(fzf)'
 alias fh='nvim $(find . | fzf)'
+
+alias c='clear'
+
+# For firefox
+export MOZ_ENABLE_WAYLAND=1
+export MOZ_DBUS_REMOTE=1
+
+export EDITOR='nvim'
+export TERM='linux'
+
+export PATH=/home/alan/.cargo/bin:$PATH
