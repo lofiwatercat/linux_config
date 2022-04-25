@@ -11,9 +11,6 @@ keymap('n', '<C-j>', '<C-w>j', { noremap = true })
 keymap('n', '<C-k>', '<C-w>k', { noremap = true })
 keymap('n', '<C-l>', '<C-w>l', { noremap = true })
 
--- Telescope
-keymap('n', '<Leader>ff', ':Telescope find_files<CR>', { noremap = true })
-
 -- Nvim-tree
 keymap('n', '<C-n>', ':NvimTreeToggle<CR>', def_opts)
 
@@ -22,3 +19,6 @@ keymap('n', '<Leader>t', ':Twilight<CR>', def_opts)
 
 -- Glow
 keymap('n', '<Leader>g', ':Glow<CR>', def_opts)
+
+-- Fzf
+keymap('n', '<Leader>f', ':FzfLua files<CR>', def_opts)
