@@ -8,13 +8,18 @@ return require('packer').startup(function()
     use 'wbthomason/packer.nvim'
 
     -- Color scheme
-    use 'bluz71/vim-moonfly-colors';
+    use 'bluz71/vim-moonfly-colors'
 
     -- Status line
     use {'famiu/feline.nvim';
         config = function()
             require('plugins/feline')
         end
+    }
+
+    -- Fzf-lua to find files
+    use {'ibhagwan/fzf-lua',
+        requires = { 'kyazdani42/nvim-web-devicons' }
     }
 
     -- File navigation
@@ -30,16 +35,18 @@ return require('packer').startup(function()
     --  Dim's unfocused code
     use {'folke/twilight.nvim',
         config = function()
-        require('plugins/twilight')
-    end
+            require('plugins/twilight')
+        end
     }
 
     -- Use glow for markdown preview
     use {'ellisonleao/glow.nvim'}
 
-    -- Telescope to find files
-    use {'nvim-telescope/telescope.nvim',
-        requires = { {'nvim-lua/plenary.nvim'} }
+    -- Better marks
+    use {'chentau/marks.nvim';
+        config = function()
+            require('plugins/marks')
+        end
     }
 
 end)

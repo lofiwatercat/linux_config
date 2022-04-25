@@ -44,8 +44,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/alan/.cache/nvim/packer_hererocks/2.0.5/share/lua/5.1/?.lua;/home/alan/.cache/nvim/packer_hererocks/2.0.5/share/lua/5.1/?/init.lua;/home/alan/.cache/nvim/packer_hererocks/2.0.5/lib/luarocks/rocks-5.1/?.lua;/home/alan/.cache/nvim/packer_hererocks/2.0.5/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/alan/.cache/nvim/packer_hererocks/2.0.5/lib/lua/5.1/?.so"
+local package_path_str = "/Users/alan/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/alan/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/alan/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/alan/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/alan/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -57,7 +57,7 @@ end
 time([[Luarocks path setup]], false)
 time([[try_loadstring definition]], true)
 local function try_loadstring(s, component, name)
-  local success, result = pcall(loadstring(s))
+  local success, result = pcall(loadstring(s), name, _G.packer_plugins[name])
   if not success then
     vim.schedule(function()
       vim.api.nvim_notify('packer.nvim: Error running ' .. component .. ' for ' .. name .. ': ' .. result, vim.log.levels.ERROR, {})
@@ -70,62 +70,78 @@ time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["feline.nvim"] = {
-    config = { "\27LJ\1\2.\0\0\2\0\2\0\0044\0\0\0%\1\1\0>\0\2\1G\0\1\0\19plugins/feline\frequire\0" },
+    config = { "\27LJ\2\n.\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\19plugins/feline\frequire\0" },
     loaded = true,
-    path = "/home/alan/.local/share/nvim/site/pack/packer/start/feline.nvim"
+    path = "/Users/alan/.local/share/nvim/site/pack/packer/start/feline.nvim",
+    url = "https://github.com/famiu/feline.nvim"
+  },
+  ["fzf-lua"] = {
+    loaded = true,
+    path = "/Users/alan/.local/share/nvim/site/pack/packer/start/fzf-lua",
+    url = "https://github.com/ibhagwan/fzf-lua"
   },
   ["glow.nvim"] = {
     loaded = true,
-    path = "/home/alan/.local/share/nvim/site/pack/packer/start/glow.nvim"
+    path = "/Users/alan/.local/share/nvim/site/pack/packer/start/glow.nvim",
+    url = "https://github.com/ellisonleao/glow.nvim"
   },
   indentLine = {
     loaded = true,
-    path = "/home/alan/.local/share/nvim/site/pack/packer/start/indentLine"
+    path = "/Users/alan/.local/share/nvim/site/pack/packer/start/indentLine",
+    url = "https://github.com/Yggdroot/indentLine"
+  },
+  ["marks.nvim"] = {
+    config = { "\27LJ\2\n-\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\18plugins/marks\frequire\0" },
+    loaded = true,
+    path = "/Users/alan/.local/share/nvim/site/pack/packer/start/marks.nvim",
+    url = "https://github.com/chentau/marks.nvim"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/home/alan/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
+    path = "/Users/alan/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/alan/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
+    path = "/Users/alan/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/alan/.local/share/nvim/site/pack/packer/start/packer.nvim"
-  },
-  ["plenary.nvim"] = {
-    loaded = true,
-    path = "/home/alan/.local/share/nvim/site/pack/packer/start/plenary.nvim"
-  },
-  ["telescope.nvim"] = {
-    loaded = true,
-    path = "/home/alan/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+    path = "/Users/alan/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    url = "https://github.com/wbthomason/packer.nvim"
   },
   ["twilight.nvim"] = {
-    config = { "\27LJ\1\0020\0\0\2\0\2\0\0044\0\0\0%\1\1\0>\0\2\1G\0\1\0\21plugins/twilight\frequire\0" },
+    config = { "\27LJ\2\n0\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\21plugins/twilight\frequire\0" },
     loaded = true,
-    path = "/home/alan/.local/share/nvim/site/pack/packer/start/twilight.nvim"
+    path = "/Users/alan/.local/share/nvim/site/pack/packer/start/twilight.nvim",
+    url = "https://github.com/folke/twilight.nvim"
   },
   ["vim-moonfly-colors"] = {
     loaded = true,
-    path = "/home/alan/.local/share/nvim/site/pack/packer/start/vim-moonfly-colors"
+    path = "/Users/alan/.local/share/nvim/site/pack/packer/start/vim-moonfly-colors",
+    url = "https://github.com/bluz71/vim-moonfly-colors"
   }
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: marks.nvim
+time([[Config for marks.nvim]], true)
+try_loadstring("\27LJ\2\n-\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\18plugins/marks\frequire\0", "config", "marks.nvim")
+time([[Config for marks.nvim]], false)
 -- Config for: twilight.nvim
 time([[Config for twilight.nvim]], true)
-try_loadstring("\27LJ\1\0020\0\0\2\0\2\0\0044\0\0\0%\1\1\0>\0\2\1G\0\1\0\21plugins/twilight\frequire\0", "config", "twilight.nvim")
+try_loadstring("\27LJ\2\n0\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\21plugins/twilight\frequire\0", "config", "twilight.nvim")
 time([[Config for twilight.nvim]], false)
 -- Config for: feline.nvim
 time([[Config for feline.nvim]], true)
-try_loadstring("\27LJ\1\2.\0\0\2\0\2\0\0044\0\0\0%\1\1\0>\0\2\1G\0\1\0\19plugins/feline\frequire\0", "config", "feline.nvim")
+try_loadstring("\27LJ\2\n.\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\19plugins/feline\frequire\0", "config", "feline.nvim")
 time([[Config for feline.nvim]], false)
 if should_profile then save_profiles() end
 
 end)
 
 if not no_errors then
+  error_msg = error_msg:gsub('"', '\\"')
   vim.api.nvim_command('echohl ErrorMsg | echom "Error in packer_compiled: '..error_msg..'" | echom "Please check your config for correctness" | echohl None')
 end
