@@ -13,12 +13,16 @@ Essentials:
     dhcpcd
     openresolv
     lsusb
+    fzf
+    tmux
+    bat
+    openssh
 
-Xorg: 
+Xorg:
     xorg-server
     xorg-xinit
     webkit2gtk
-    
+
 
 Wayland:
     foot (aur)
@@ -31,7 +35,7 @@ Wayland:
     waybar
 
 Rice:
-    
+
 Util:
     neomutt
     vim-plug(aur)
@@ -44,4 +48,4 @@ Util:
     texlive-most
     tllocalmgr(aur)
     openssh
-    
+

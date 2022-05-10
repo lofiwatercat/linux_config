@@ -1,11 +1,9 @@
 alias c='clear'
 alias cal='task calendar'
-alias l='lsd -l'
-alias la='lsd -la'
+alias l='lsd -la'
 alias v='nvim'
 alias t='tmux'
 alias vf='nvim $(fzf --preview="bat --color=always {}")'
-alias cpwd="pwd | tr -d '\n' | pbcopy && echo 'pwd copied to clipboard'"
 
 
 alias ber='bundle exec rspec'
