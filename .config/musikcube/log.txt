@@ -1,0 +1,384 @@
+10:42:15 [info] [LOG SESSION] ---------- START ----------
+10:42:15 [info] [PluginFactory] loading plugins
+10:42:15 [info] [PluginFactory] loaded: /opt/homebrew/share/musikcube/plugins/libsupereqdsp.dylib
+10:42:15 [info] [PluginFactory] loaded: /opt/homebrew/share/musikcube/plugins/libmacosmediakeys.dylib
+10:42:15 [info] [PluginFactory] loaded: /opt/homebrew/share/musikcube/plugins/libtaglibreader.dylib
+10:42:15 [info] [PluginFactory] loaded: /opt/homebrew/share/musikcube/plugins/libstockencoders.dylib
+10:42:15 [info] [PluginFactory] loaded: /opt/homebrew/share/musikcube/plugins/libserver.dylib
+10:42:15 [info] [PluginFactory] loaded: /opt/homebrew/share/musikcube/plugins/libopenmptdecoder.dylib
+10:42:15 [info] [PluginFactory] loaded: /opt/homebrew/share/musikcube/plugins/libhttpdatastream.dylib
+10:42:15 [info] [PluginFactory] loaded: /opt/homebrew/share/musikcube/plugins/libgmedecoder.dylib
+10:42:15 [info] [PluginFactory] loaded: /opt/homebrew/share/musikcube/plugins/libnullout.dylib
+10:42:15 [info] [PluginFactory] loaded: /opt/homebrew/share/musikcube/plugins/libffmpegdecoder.dylib
+10:42:15 [info] [PluginFactory] loaded: /opt/homebrew/share/musikcube/plugins/libcoreaudioout.dylib
+10:42:15 [info] [Indexer] indexer source 197490949 running...
+10:42:15 [info] [Indexer] indexer source 197490949 finished
+10:42:15 [info] [Indexer] indexer source 1859739243 running...
+10:42:15 [info] [Indexer] indexer source 1859739243 finished
+10:42:15 [info] [Indexer] scanning /Users/alan/Music/
+10:42:15 [info] [Indexer] scan completed successfully
+10:42:15 [info] [Indexer] cleanup 1/2
+10:42:15 [info] [Indexer] cleanup 2/2
+10:42:15 [info] [Indexer] optimizing
+10:42:15 [info] [Indexer] done!
+10:42:15 [error] [macosmediakeys] failed to register media keys listener
+10:42:15 [info] [macosmediakeys] unregistered media keys
+10:42:15 [info] [GaplessTransport] starting track at /Users/alan/Music/Lizz Robinett - Song of the Ancients (from -NieR-) (feat. Luke Thomas).mp3
+10:42:15 [info] [Player] new instance created
+10:42:15 [info] [GaplessTransport] stop
+10:42:15 [info] [Stream] opening /Users/alan/Music/Lizz Robinett - Song of the Ancients (from -NieR-) (feat. Luke Thomas).mp3
+10:42:15 [info] [LocalFileStream] opening file: /Users/alan/Music/Lizz Robinett - Song of the Ancients (from -NieR-) (feat. Luke Thomas).mp3
+10:42:15 [info] [ffmpegdecoder] parsing data stream...
+10:42:15 [info] [ffmpegdecoder] found audio stream!
+10:42:15 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+10:42:15 [info] [Streams] found a decoder for /Users/alan/Music/Lizz Robinett - Song of the Ancients (from -NieR-) (feat. Luke Thomas).mp3
+10:42:15 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+10:47:08 [info] [GaplessTransport] resume
+10:47:08 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+10:47:08 [info] [Player] new instance created
+10:47:08 [info] [Stream] opening /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+10:47:08 [info] [LocalFileStream] opening file: /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+10:47:08 [info] [ffmpegdecoder] parsing data stream...
+10:47:08 [info] [ffmpegdecoder] found audio stream!
+10:47:08 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+10:47:08 [info] [Streams] found a decoder for /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+10:47:08 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+10:47:09 [info] [GaplessTransport] pause
+10:47:10 [info] [GaplessTransport] resume
+10:47:11 [info] [GaplessTransport] pause
+10:47:11 [info] [GaplessTransport] resume
+10:47:12 [info] [GaplessTransport] pause
+10:47:13 [info] [GaplessTransport] starting track at /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+10:47:13 [info] [Player] new instance created
+10:47:13 [info] [Stream] opening /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+10:47:13 [info] [LocalFileStream] opening file: /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+10:47:13 [info] [GaplessTransport] stop
+10:47:13 [info] [ffmpegdecoder] parsing data stream...
+10:47:13 [info] [ffmpegdecoder] found audio stream!
+10:47:13 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+10:47:13 [info] [Streams] found a decoder for /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+10:47:13 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+10:47:13 [info] [Player] new instance created
+10:47:13 [info] [Stream] opening /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+10:47:13 [info] [LocalFileStream] opening file: /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+10:47:13 [info] [ffmpegdecoder] parsing data stream...
+10:47:13 [info] [ffmpegdecoder] found audio stream!
+10:47:13 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+10:47:13 [info] [Streams] found a decoder for /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+10:47:13 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+10:47:13 [info] [GaplessTransport] pause
+10:47:18 [info] [GaplessTransport] resume
+10:47:40 [info] [GaplessTransport] pause
+15:38:17 [info] [GaplessTransport] starting track at /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+15:38:17 [info] [Player] new instance created
+15:38:17 [info] [Stream] opening /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+15:38:17 [info] [GaplessTransport] stop
+15:38:17 [info] [LocalFileStream] opening file: /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+15:38:17 [info] [ffmpegdecoder] parsing data stream...
+15:38:17 [info] [ffmpegdecoder] found audio stream!
+15:38:17 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:38:17 [info] [Streams] found a decoder for /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+15:38:17 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+15:38:18 [info] [Player] new instance created
+15:38:18 [info] [Stream] opening /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+15:38:18 [info] [LocalFileStream] opening file: /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+15:38:18 [info] [ffmpegdecoder] parsing data stream...
+15:38:18 [info] [ffmpegdecoder] found audio stream!
+15:38:18 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:38:18 [info] [Streams] found a decoder for /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+15:38:18 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+15:38:19 [info] [GaplessTransport] starting track at /Users/alan/Music/Lizz Robinett - Song of the Ancients (from -NieR-) (feat. Luke Thomas).mp3
+15:38:19 [info] [Player] new instance created
+15:38:19 [info] [Stream] opening /Users/alan/Music/Lizz Robinett - Song of the Ancients (from -NieR-) (feat. Luke Thomas).mp3
+15:38:19 [info] [LocalFileStream] opening file: /Users/alan/Music/Lizz Robinett - Song of the Ancients (from -NieR-) (feat. Luke Thomas).mp3
+15:38:19 [info] [GaplessTransport] stop
+15:38:19 [info] [ffmpegdecoder] parsing data stream...
+15:38:19 [info] [ffmpegdecoder] found audio stream!
+15:38:19 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:38:19 [info] [Streams] found a decoder for /Users/alan/Music/Lizz Robinett - Song of the Ancients (from -NieR-) (feat. Luke Thomas).mp3
+15:38:19 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+15:38:19 [info] [Player] new instance created
+15:38:19 [info] [Stream] opening /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+15:38:19 [info] [LocalFileStream] opening file: /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+15:38:19 [info] [ffmpegdecoder] parsing data stream...
+15:38:19 [info] [ffmpegdecoder] found audio stream!
+15:38:19 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:38:19 [info] [Streams] found a decoder for /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+15:38:19 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+15:38:24 [info] [GaplessTransport] starting track at /Users/alan/Music/Lizz Robinett - Song of the Ancients (from -NieR-) (feat. Luke Thomas).mp3
+15:38:24 [info] [Player] new instance created
+15:38:24 [info] [Stream] opening /Users/alan/Music/Lizz Robinett - Song of the Ancients (from -NieR-) (feat. Luke Thomas).mp3
+15:38:24 [info] [LocalFileStream] opening file: /Users/alan/Music/Lizz Robinett - Song of the Ancients (from -NieR-) (feat. Luke Thomas).mp3
+15:38:24 [info] [GaplessTransport] stop
+15:38:24 [info] [ffmpegdecoder] parsing data stream...
+15:38:24 [info] [ffmpegdecoder] found audio stream!
+15:38:24 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:38:24 [info] [Streams] found a decoder for /Users/alan/Music/Lizz Robinett - Song of the Ancients (from -NieR-) (feat. Luke Thomas).mp3
+15:38:24 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+15:38:24 [info] [Player] new instance created
+15:38:24 [info] [Stream] opening /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+15:38:24 [info] [LocalFileStream] opening file: /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+15:38:24 [info] [ffmpegdecoder] parsing data stream...
+15:38:24 [info] [ffmpegdecoder] found audio stream!
+15:38:24 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:38:24 [info] [Streams] found a decoder for /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+15:38:24 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+15:38:25 [info] [GaplessTransport] starting track at /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+15:38:25 [info] [Player] new instance created
+15:38:25 [info] [Stream] opening /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+15:38:25 [info] [GaplessTransport] stop
+15:38:25 [info] [LocalFileStream] opening file: /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+15:38:25 [info] [ffmpegdecoder] parsing data stream...
+15:38:25 [info] [ffmpegdecoder] found audio stream!
+15:38:25 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:38:25 [info] [Streams] found a decoder for /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+15:38:25 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+15:38:25 [info] [Player] new instance created
+15:38:25 [info] [Stream] opening /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+15:38:25 [info] [LocalFileStream] opening file: /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+15:38:25 [info] [ffmpegdecoder] parsing data stream...
+15:38:25 [info] [ffmpegdecoder] found audio stream!
+15:38:25 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:38:25 [info] [Streams] found a decoder for /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+15:38:25 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+15:39:59 [info] [GaplessTransport] pause
+17:55:56 [info] [GaplessTransport] resume
+17:56:02 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:03 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:05 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:06 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:06 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:07 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:07 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:07 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:07 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:07 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:07 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:07 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:07 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:07 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:11 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:12 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:13 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:13 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:14 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:14 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:14 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:15 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:15 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:15 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:15 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:16 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:56:16 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:57:06 [info] [GaplessTransport] starting track at /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 07 Hailstorm.mp3
+17:57:06 [info] [Player] new instance created
+17:57:06 [info] [Stream] opening /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 07 Hailstorm.mp3
+17:57:06 [info] [GaplessTransport] stop
+17:57:06 [info] [LocalFileStream] opening file: /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 07 Hailstorm.mp3
+17:57:06 [info] [ffmpegdecoder] parsing data stream...
+17:57:06 [info] [ffmpegdecoder] found audio stream!
+17:57:06 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:57:06 [info] [Streams] found a decoder for /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 07 Hailstorm.mp3
+17:57:06 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:57:06 [info] [GaplessTransport] starting track at /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 07 Hailstorm.mp3
+17:57:06 [info] [Player] new instance created
+17:57:06 [info] [Stream] opening /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 07 Hailstorm.mp3
+17:57:06 [info] [GaplessTransport] stop
+17:57:06 [info] [LocalFileStream] opening file: /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 07 Hailstorm.mp3
+17:57:06 [info] [ffmpegdecoder] parsing data stream...
+17:57:06 [info] [ffmpegdecoder] found audio stream!
+17:57:06 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:57:06 [info] [Streams] found a decoder for /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 07 Hailstorm.mp3
+17:57:06 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:57:06 [info] [GaplessTransport] starting track at /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 07 Hailstorm.mp3
+17:57:06 [info] [Player] new instance created
+17:57:06 [info] [Stream] opening /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 07 Hailstorm.mp3
+17:57:06 [info] [GaplessTransport] stop
+17:57:06 [info] [LocalFileStream] opening file: /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 07 Hailstorm.mp3
+17:57:06 [info] [ffmpegdecoder] parsing data stream...
+17:57:06 [info] [ffmpegdecoder] found audio stream!
+17:57:06 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:57:06 [info] [Streams] found a decoder for /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 07 Hailstorm.mp3
+17:57:06 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:57:06 [info] [Player] new instance created
+17:57:06 [info] [Stream] opening /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 08 Moisture Deficit.mp3
+17:57:06 [info] [LocalFileStream] opening file: /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 08 Moisture Deficit.mp3
+17:57:06 [info] [ffmpegdecoder] parsing data stream...
+17:57:06 [info] [ffmpegdecoder] found audio stream!
+17:57:06 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+17:57:06 [info] [Streams] found a decoder for /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 08 Moisture Deficit.mp3
+17:57:06 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+17:57:08 [info] [GaplessTransport] pause
+17:57:08 [info] [GaplessTransport] resume
+17:57:09 [info] [GaplessTransport] pause
+22:43:08 [info] [GaplessTransport] starting track at /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 07 Hailstorm.mp3
+22:43:08 [info] [Player] new instance created
+22:43:08 [info] [Stream] opening /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 07 Hailstorm.mp3
+22:43:08 [info] [GaplessTransport] stop
+22:43:08 [info] [LocalFileStream] opening file: /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 07 Hailstorm.mp3
+22:43:08 [info] [ffmpegdecoder] parsing data stream...
+22:43:08 [info] [ffmpegdecoder] found audio stream!
+22:43:08 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:43:08 [info] [Streams] found a decoder for /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 07 Hailstorm.mp3
+22:43:08 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:43:08 [info] [Player] new instance created
+22:43:08 [info] [Stream] opening /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 08 Moisture Deficit.mp3
+22:43:08 [info] [LocalFileStream] opening file: /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 08 Moisture Deficit.mp3
+22:43:08 [info] [ffmpegdecoder] parsing data stream...
+22:43:08 [info] [ffmpegdecoder] found audio stream!
+22:43:08 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:43:08 [info] [Streams] found a decoder for /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 08 Moisture Deficit.mp3
+22:43:08 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:43:11 [info] [GaplessTransport] pause
+22:43:12 [info] [GaplessTransport] starting track at /Users/alan/Music/Lizz Robinett - Song of the Ancients (from -NieR-) (feat. Luke Thomas).mp3
+22:43:12 [info] [Player] new instance created
+22:43:12 [info] [Stream] opening /Users/alan/Music/Lizz Robinett - Song of the Ancients (from -NieR-) (feat. Luke Thomas).mp3
+22:43:12 [info] [LocalFileStream] opening file: /Users/alan/Music/Lizz Robinett - Song of the Ancients (from -NieR-) (feat. Luke Thomas).mp3
+22:43:12 [info] [GaplessTransport] stop
+22:43:12 [info] [ffmpegdecoder] parsing data stream...
+22:43:12 [info] [ffmpegdecoder] found audio stream!
+22:43:12 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:43:12 [info] [Streams] found a decoder for /Users/alan/Music/Lizz Robinett - Song of the Ancients (from -NieR-) (feat. Luke Thomas).mp3
+22:43:12 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:43:12 [info] [Player] new instance created
+22:43:12 [info] [Stream] opening /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+22:43:12 [info] [LocalFileStream] opening file: /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+22:43:12 [info] [ffmpegdecoder] parsing data stream...
+22:43:12 [info] [ffmpegdecoder] found audio stream!
+22:43:12 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:43:12 [info] [Streams] found a decoder for /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+22:43:12 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:46:20 [info] [ffmpegdecoder] finished decoding.
+22:46:21 [info] [GaplessTransport] stop
+22:46:22 [info] [Player] new instance created
+22:46:22 [info] [Stream] opening /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+22:46:22 [info] [LocalFileStream] opening file: /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+22:46:22 [info] [ffmpegdecoder] parsing data stream...
+22:46:22 [info] [ffmpegdecoder] found audio stream!
+22:46:22 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:46:22 [info] [Streams] found a decoder for /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+22:46:22 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:48:15 [info] [ffmpegdecoder] finished decoding.
+22:48:16 [info] [GaplessTransport] stop
+22:48:18 [info] [Player] new instance created
+22:48:18 [info] [Stream] opening /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 02 Wong.mp3
+22:48:18 [info] [LocalFileStream] opening file: /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 02 Wong.mp3
+22:48:18 [info] [ffmpegdecoder] parsing data stream...
+22:48:18 [info] [ffmpegdecoder] found audio stream!
+22:48:18 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:48:18 [info] [Streams] found a decoder for /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 02 Wong.mp3
+22:48:18 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:48:43 [info] [GaplessTransport] starting track at /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+22:48:43 [info] [Player] new instance created
+22:48:43 [info] [GaplessTransport] stop
+22:48:43 [info] [Stream] opening /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+22:48:43 [info] [LocalFileStream] opening file: /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+22:48:43 [info] [ffmpegdecoder] parsing data stream...
+22:48:43 [info] [ffmpegdecoder] found audio stream!
+22:48:43 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:48:43 [info] [Streams] found a decoder for /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+22:48:43 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:48:43 [info] [Player] new instance created
+22:48:43 [info] [Stream] opening /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 02 Wong.mp3
+22:48:43 [info] [LocalFileStream] opening file: /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 02 Wong.mp3
+22:48:43 [info] [ffmpegdecoder] parsing data stream...
+22:48:43 [info] [ffmpegdecoder] found audio stream!
+22:48:43 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:48:43 [info] [Streams] found a decoder for /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 02 Wong.mp3
+22:48:43 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:48:44 [info] [GaplessTransport] starting track at /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+22:48:44 [info] [Player] new instance created
+22:48:44 [info] [Stream] opening /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+22:48:44 [info] [LocalFileStream] opening file: /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+22:48:44 [info] [GaplessTransport] stop
+22:48:44 [info] [ffmpegdecoder] parsing data stream...
+22:48:44 [info] [ffmpegdecoder] found audio stream!
+22:48:44 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:48:44 [info] [Streams] found a decoder for /Users/alan/Music/Engelwood - Crystal Dolphin.mp3
+22:48:44 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:48:44 [info] [Player] new instance created
+22:48:44 [info] [Stream] opening /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+22:48:44 [info] [LocalFileStream] opening file: /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+22:48:44 [info] [ffmpegdecoder] parsing data stream...
+22:48:44 [info] [ffmpegdecoder] found audio stream!
+22:48:44 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:48:44 [info] [Streams] found a decoder for /Users/alan/Music/Vulfpeck - Dean Town/Vulfpeck - Dean Town - 01 Dart.mp3
+22:48:44 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:48:47 [info] [GaplessTransport] starting track at /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 01 Risk of Rain.mp3
+22:48:47 [info] [Player] new instance created
+22:48:47 [info] [Stream] opening /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 01 Risk of Rain.mp3
+22:48:47 [info] [LocalFileStream] opening file: /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 01 Risk of Rain.mp3
+22:48:47 [info] [GaplessTransport] stop
+22:48:47 [info] [ffmpegdecoder] parsing data stream...
+22:48:47 [info] [ffmpegdecoder] found audio stream!
+22:48:47 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:48:47 [info] [Streams] found a decoder for /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 01 Risk of Rain.mp3
+22:48:47 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:48:47 [info] [Player] new instance created
+22:48:47 [info] [Stream] opening /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 02 Dew Point.mp3
+22:48:47 [info] [LocalFileStream] opening file: /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 02 Dew Point.mp3
+22:48:47 [info] [ffmpegdecoder] parsing data stream...
+22:48:47 [info] [ffmpegdecoder] found audio stream!
+22:48:47 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:48:47 [info] [Streams] found a decoder for /Users/alan/Music/Chris Christodoulou - Risk of Rain/Chris Christodoulou - Risk of Rain - 02 Dew Point.mp3
+22:48:47 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:48:53 [info] [GaplessTransport] starting track at /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 01 慈悲を示さない.mp3
+22:48:53 [info] [Player] new instance created
+22:48:53 [info] [Stream] opening /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 01 慈悲を示さない.mp3
+22:48:53 [info] [GaplessTransport] stop
+22:48:53 [info] [LocalFileStream] opening file: /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 01 慈悲を示さない.mp3
+22:48:53 [info] [ffmpegdecoder] parsing data stream...
+22:48:53 [info] [ffmpegdecoder] found audio stream!
+22:48:53 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:48:53 [info] [Streams] found a decoder for /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 01 慈悲を示さない.mp3
+22:48:53 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:48:53 [info] [Player] new instance created
+22:48:53 [info] [Stream] opening /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 02 タイトなコーナー.mp3
+22:48:53 [info] [LocalFileStream] opening file: /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 02 タイトなコーナー.mp3
+22:48:53 [info] [ffmpegdecoder] parsing data stream...
+22:48:53 [info] [ffmpegdecoder] found audio stream!
+22:48:53 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:48:53 [info] [Streams] found a decoder for /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 02 タイトなコーナー.mp3
+22:48:53 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:53:08 [info] [ffmpegdecoder] finished decoding.
+22:53:10 [info] [GaplessTransport] stop
+22:53:11 [info] [Player] new instance created
+22:53:11 [info] [Stream] opening /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 03 手遅れです.mp3
+22:53:11 [info] [LocalFileStream] opening file: /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 03 手遅れです.mp3
+22:53:11 [info] [ffmpegdecoder] parsing data stream...
+22:53:11 [info] [ffmpegdecoder] found audio stream!
+22:53:11 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:53:11 [info] [Streams] found a decoder for /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 03 手遅れです.mp3
+22:53:11 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+22:58:27 [info] [ffmpegdecoder] finished decoding.
+22:58:29 [info] [GaplessTransport] stop
+22:58:30 [info] [Player] new instance created
+22:58:30 [info] [Stream] opening /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 04 私は前にあなたを見てきた.mp3
+22:58:30 [info] [LocalFileStream] opening file: /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 04 私は前にあなたを見てきた.mp3
+22:58:30 [info] [ffmpegdecoder] parsing data stream...
+22:58:30 [info] [ffmpegdecoder] found audio stream!
+22:58:30 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+22:58:30 [info] [Streams] found a decoder for /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 04 私は前にあなたを見てきた.mp3
+22:58:30 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+23:02:29 [info] [ffmpegdecoder] finished decoding.
+23:02:30 [info] [GaplessTransport] stop
+23:02:31 [info] [Player] new instance created
+23:02:31 [info] [Stream] opening /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 05 ドアをノックする.mp3
+23:02:31 [info] [LocalFileStream] opening file: /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 05 ドアをノックする.mp3
+23:02:31 [info] [ffmpegdecoder] parsing data stream...
+23:02:31 [info] [ffmpegdecoder] found audio stream!
+23:02:31 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+23:02:31 [info] [Streams] found a decoder for /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 05 ドアをノックする.mp3
+23:02:31 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+23:06:34 [info] [ffmpegdecoder] finished decoding.
+23:06:36 [info] [GaplessTransport] stop
+23:06:37 [info] [Player] new instance created
+23:06:37 [info] [Stream] opening /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 06 決して振り返らない.mp3
+23:06:37 [info] [LocalFileStream] opening file: /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 06 決して振り返らない.mp3
+23:06:37 [info] [ffmpegdecoder] parsing data stream...
+23:06:37 [info] [ffmpegdecoder] found audio stream!
+23:06:37 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+23:06:37 [info] [Streams] found a decoder for /Users/alan/Music/Macroblank - 行方不明/Macroblank - 行方不明 - 06 決して振り返らない.mp3
+23:06:37 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+23:06:48 [info] [GaplessTransport] pause
+11:19:02 [info] [GaplessTransport] stop

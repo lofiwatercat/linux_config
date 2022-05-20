@@ -43,18 +43,10 @@ return require('packer').startup(function()
     use {'ellisonleao/glow.nvim'}
 
     -- Better marks
-    use {'chentoast/marks.nvim';
+    use {'chentau/marks.nvim';
         config = function()
             require('plugins/marks')
         end
     }
-
-    -- LSP
-     use {'neovim/nvim-lspconfig';
-        config = function()
-            require('plugins/nvim-lspconfig')
-        end
-    }
-
 
 end)

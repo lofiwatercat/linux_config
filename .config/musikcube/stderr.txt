@@ -1,0 +1,54 @@
+[2022-05-06 10:42:15] [info] asio async_connect error: system:61 (Connection refused)
+[2022-05-06 10:42:15] [info] Error getting remote endpoint: system:22 (Invalid argument)
+[2022-05-06 10:42:15] [error] handle_connect error: Underlying Transport Error
+[mp3float @ 0x12b628b40] Could not update timestamps for skipped samples.
+[mp3float @ 0x12d836830] Could not update timestamps for skipped samples.
+[mp3float @ 0x107e066f0] Could not update timestamps for skipped samples.
+[mjpeg @ 0x107d05730] EOI missing, emulating
+[mp3float @ 0x107d06430] Could not update timestamps for skipped samples.
+[mp3float @ 0x107c06a50] Could not update timestamps for skipped samples.
+[mjpeg @ 0x107d04b70] EOI missing, emulating
+[mp3float @ 0x107d067d0] Could not update timestamps for skipped samples.
+[mp3float @ 0x12b62b340] Could not update timestamps for skipped samples.
+[mp3float @ 0x12b62d730] Could not update timestamps for skipped samples.
+[mp3float @ 0x107c088a0] Could not update timestamps for skipped samples.
+[mp3float @ 0x107c074d0] Could not update timestamps for skipped samples.
+[mp3float @ 0x12b62cb80] Could not update timestamps for skipped samples.
+[mjpeg @ 0x12d837ea0] EOI missing, emulating
+[mp3float @ 0x107c091d0] Could not update timestamps for skipped samples.
+[mp3float @ 0x12b62cb80] overread, skip -6 enddists: -3 -3
+[mp3float @ 0x12b62cb80] overread, skip -7 enddists: -3 -3
+[mp3float @ 0x107c0a310] Could not update timestamps for skipped samples.
+[mp3float @ 0x12d9306e0] Could not update timestamps for skipped samples.
+[mp3float @ 0x107c08230] Could not update timestamps for skipped samples.
+[mp3float @ 0x107c0a6b0] Could not update timestamps for skipped samples.
+[mp3float @ 0x107c049f0] Could not update timestamps for skipped samples.
+[mp3float @ 0x107d0be70] Could not update timestamps for skipped samples.
+[mp3float @ 0x107f0a140] Could not update timestamps for skipped samples.
+[mp3float @ 0x107c07870] Could not update timestamps for skipped samples.
+[mp3float @ 0x107f0a140] Could not update timestamps for discarded samples.
+[mjpeg @ 0x12d839a80] EOI missing, emulating
+[mp3float @ 0x12b62f870] Could not update timestamps for skipped samples.
+[mp3float @ 0x107c07870] Could not update timestamps for discarded samples.
+[mjpeg @ 0x12d931160] EOI missing, emulating
+[mp3float @ 0x12d931500] Could not update timestamps for skipped samples.
+[mjpeg @ 0x12d930a80] EOI missing, emulating
+[mp3float @ 0x107f0a4e0] Could not update timestamps for skipped samples.
+[mjpeg @ 0x107c06df0] EOI missing, emulating
+[mp3float @ 0x12b631bf0] Could not update timestamps for skipped samples.
+[mp3float @ 0x107e0b060] Could not update timestamps for skipped samples.
+[mjpeg @ 0x12b630630] EOI missing, emulating
+[mp3float @ 0x107e09080] Could not update timestamps for skipped samples.
+[mp3float @ 0x107e09ea0] Could not update timestamps for skipped samples.
+[mp3float @ 0x12b62ffb0] Could not update timestamps for skipped samples.
+[mp3float @ 0x107f0a880] Could not update timestamps for skipped samples.
+[mp3float @ 0x12d837480] Could not update timestamps for skipped samples.
+[mp3float @ 0x107f0a880] Could not update timestamps for discarded samples.
+[mp3float @ 0x12d837ee0] Could not update timestamps for skipped samples.
+[mp3float @ 0x12d837480] Could not update timestamps for discarded samples.
+[mp3float @ 0x12b72d090] Could not update timestamps for skipped samples.
+[mp3float @ 0x12d837ee0] Could not update timestamps for discarded samples.
+[mp3float @ 0x107e0cef0] Could not update timestamps for skipped samples.
+[mp3float @ 0x12b72d090] Could not update timestamps for discarded samples.
+[mp3float @ 0x107f0b660] Could not update timestamps for skipped samples.
+[2022-05-07 11:19:02] [error] handle_read_frame error: websocketpp.transport:7 (End of File)
