@@ -56,5 +56,24 @@ return require('packer').startup(function()
         end
     }
 
+    -- Snippets and auto complete
+--     use {'hrsh7th/nvim-cmp';
+--         config = function()
+--             require('plugins/cmp')
+--         end
+--     }
+--
+--     use {'saadparwaiz1/cmp_luasnip'}
+--
+--     use {'L3MON4D3/LuaSnip',
+--         after = 'nvim-cmp',
+--         config = function()
+--             require('plugins/snippets')
+--         end
+--     }
+
+    -- Register
+    use {"tversteeg/registers.nvim"}
+
 
 end)

@@ -117,6 +117,11 @@ _G.packer_plugins = {
     path = "/Users/alan/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  ["registers.nvim"] = {
+    loaded = true,
+    path = "/Users/alan/.local/share/nvim/site/pack/packer/start/registers.nvim",
+    url = "https://github.com/tversteeg/registers.nvim"
+  },
   ["twilight.nvim"] = {
     config = { "\27LJ\2\n0\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\21plugins/twilight\frequire\0" },
     loaded = true,
@@ -139,14 +144,14 @@ time([[Config for nvim-lspconfig]], false)
 time([[Config for feline.nvim]], true)
 try_loadstring("\27LJ\2\n.\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\19plugins/feline\frequire\0", "config", "feline.nvim")
 time([[Config for feline.nvim]], false)
--- Config for: twilight.nvim
-time([[Config for twilight.nvim]], true)
-try_loadstring("\27LJ\2\n0\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\21plugins/twilight\frequire\0", "config", "twilight.nvim")
-time([[Config for twilight.nvim]], false)
 -- Config for: marks.nvim
 time([[Config for marks.nvim]], true)
 try_loadstring("\27LJ\2\n-\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\18plugins/marks\frequire\0", "config", "marks.nvim")
 time([[Config for marks.nvim]], false)
+-- Config for: twilight.nvim
+time([[Config for twilight.nvim]], true)
+try_loadstring("\27LJ\2\n0\0\0\3\0\2\0\0046\0\0\0'\2\1\0B\0\2\1K\0\1\0\21plugins/twilight\frequire\0", "config", "twilight.nvim")
+time([[Config for twilight.nvim]], false)
 if should_profile then save_profiles() end
 
 end)

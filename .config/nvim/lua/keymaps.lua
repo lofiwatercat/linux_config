@@ -12,7 +12,7 @@ keymap('n', '<C-k>', '<C-w>k', { noremap = true })
 keymap('n', '<C-l>', '<C-w>l', { noremap = true })
 
 -- Nvim-tree
-keymap('n', '<C-n>', ':NvimTreeToggle<CR>', def_opts)
+keymap('n', '<C-n>', ':NvimTreeToggle<CR> :NvimTreeRefresh<CR>', def_opts)
 
 -- Twilight
 keymap('n', '<Leader>t', ':Twilight<CR>', def_opts)

@@ -32,3 +32,6 @@ opt.termguicolors = true
 cmd('colorscheme moonfly')
 
 -- Glow
+
+-- Nvim-tree
+opt.splitright = true
