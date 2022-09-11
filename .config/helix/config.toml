@@ -1,0 +1,16 @@
+theme = "Onedark"
+
+[editor]
+scrolloff = 7
+cursorline = true
+# bufferline = always
+
+[editor.file-picker]
+hidden = false
+
+[editor.indent-guides]
+render = true
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
