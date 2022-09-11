@@ -48,4 +48,5 @@ Util:
     texlive-most
     tllocalmgr(aur)
     openssh
+    keyb
 
