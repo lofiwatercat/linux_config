@@ -16,6 +16,8 @@ return require('packer').startup({ function(use)
   -- My plugins here
   -- Color theme
   use { 'bluz71/vim-moonfly-colors' }
+  use { 'kyazdani42/blue-moon' }
+  use { 'Yazeed1s/minimal.nvim' }
 
   -- LSP
   use { 'williamboman/mason.nvim', config = function()
@@ -41,6 +43,13 @@ return require('packer').startup({ function(use)
   -- Snippets
   use { "L3MON4D3/LuaSnip", tag = "v<CurrentMajor>.*" }
   use "rafamadriz/friendly-snippets"
+
+  -- Neorg, need neovim 0.8
+  use { "nvim-neorg/neorg",
+   config = function() require('plugins/neorg') end,
+   tag = "*",
+   requires = "nvim-lua/plenary.nvim"
+  }
 
   -- Autopairs
   use { "windwp/nvim-autopairs",
@@ -68,6 +77,11 @@ return require('packer').startup({ function(use)
   -- Bufferdelete
   use { "famiu/bufdelete.nvim" }
 
+  -- Marks
+  use { "chentoast/marks.nvim",
+    config = function() require("plugins/marks") end
+  }
+
   -- Toggleterm
   use { "akinsho/toggleterm.nvim", tag = '*',
     config = function() require("plugins/toggleterm") end
@@ -87,6 +101,12 @@ return require('packer').startup({ function(use)
     config = function() require('plugins/nvim-tree') end
   }
 
+  -- Lir
+  use { 'tamago324/lir.nvim' ,
+    requires = { 'kyazdani42/nvim-web-devicons', 'nvim-lua/plenary.nvim' },
+    config = function() require('plugins/lir') end
+  }
+
   -- Indent markers
   use { 'lukas-reineke/indent-blankline.nvim',
     config = function() require('plugins/indent-blankline') end
@@ -96,6 +116,25 @@ return require('packer').startup({ function(use)
   use { 'nvim-telescope/telescope.nvim', tag = '0.1.0',
     requires = { { 'nvim-lua/plenary.nvim' } },
     config = function() require('plugins/telescope') end,
+  }
+
+  use { 'ThePrimeagen/harpoon',
+    requires = { { 'nvim-lua/plenary.nvim' } },
+    config = function() require('plugins/harpoon') end,
+  }
+
+  -- Mind for note taking 
+  -- use { 'phaazon/mind.nvim',
+  --   branch = 'v2.2',
+  --   requires = { 'nvim-lua/plenary.nvim' },
+  --   config = function() require('plugins/mind') end,
+  -- }
+
+  -- Nvim-lilypond-suite
+  use {
+    'martineausimon/nvim-lilypond-suite',
+    requires = { 'MunifTanjim/nui.nvim' },
+    config = function() require('plugins/nvim-lilypond-suite') end,
   }
 
   -- Automatically set up your configuration after cloning packer.nvim

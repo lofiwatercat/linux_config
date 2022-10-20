@@ -9,12 +9,17 @@ vim.g.maplocalleader = " "
 -- Save with leader
 keymap("n", "<Leader>w", ":w<CR>", opts);
 
+
 -- Switch bufferes
-keymap("n", "<S-h>", ":bprevious<CR>", opts)
-keymap("n", "<S-l>", ":bnext<CR>", opts)
+keymap("n", "<S-h>", ":BufferLineCyclePrev<CR>", opts)
+keymap("n", "<S-l>", ":BufferLineCycleNext<CR>", opts)
+
+-- Move buffers
+keymap("n", "<C-u>", ":BufferLineMovePrev<CR>", opts)
+keymap("n", "<C-k>", ":BufferLineMoveNext<CR>", opts)
 
 -- Delete buffer
-keymap("n", "<Leader>c", ":bd<CR>", opts)
+keymap("n", "<Leader>c", ":Bdelete<CR>", opts)
 
 -- Quit window
 keymap("n", "<Leader>q", ":q<CR>", opts)
@@ -35,6 +40,7 @@ keymap("n", "<Leader>e", ":NvimTreeFindFileToggle<cr>", opts)
 keymap("n", "<Leader>ff", ":Telescope find_files<cr>", opts)
 keymap("n", "<Leader>fg", ":Telescope live_grep<cr>", opts)
 keymap("n", "<Leader>fb", ":Telescope buffers<cr>", opts)
+keymap("n", "<Leader>fr", ":Telescope registers<cr>", opts)
 
 -- To normal mode
 keymap("i", "jk", "<ESC>", opts)

@@ -19,6 +19,7 @@ local lsp_flags = {
   debounce_text_changes = 150,
 }
 
+-- CHANGE THIS
 local handlers_status_ok, handlers = pcall(require, "plugins/lsp/handlers")
 if not handlers_status_ok then
   vim.notify("Problem with lsp handlers")
