@@ -15,8 +15,8 @@ keymap("n", "<S-h>", ":BufferLineCyclePrev<CR>", opts)
 keymap("n", "<S-l>", ":BufferLineCycleNext<CR>", opts)
 
 -- Move buffers
-keymap("n", "<C-u>", ":BufferLineMovePrev<CR>", opts)
-keymap("n", "<C-k>", ":BufferLineMoveNext<CR>", opts)
+keymap("n", "<C-y>", ":BufferLineMovePrev<CR>", opts)
+keymap("n", "<C-o>", ":BufferLineMoveNext<CR>", opts)
 
 -- Delete buffer
 keymap("n", "<Leader>c", ":Bdelete<CR>", opts)

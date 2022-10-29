@@ -96,8 +96,8 @@ return require('packer').startup({ function(use)
   }
 
   -- Nvim-tree
-  use { 'kyazdani42/nvim-tree.lua',
-    requires = { 'kyazdani42/nvim-web-devicons' },
+  use { 'nvim-tree/nvim-tree.lua',
+    requires = { 'nvim-tree/nvim-web-devicons' },
     config = function() require('plugins/nvim-tree') end
   }
 
@@ -121,6 +121,16 @@ return require('packer').startup({ function(use)
   use { 'ThePrimeagen/harpoon',
     requires = { { 'nvim-lua/plenary.nvim' } },
     config = function() require('plugins/harpoon') end,
+  }
+
+  -- Like a minimap
+  use { 'gorbit99/codewindow.nvim',
+    config = function() require('plugins/codewindow') end,
+  }
+
+  use { 'folke/noice.nvim',
+    requires = { 'MunifTanjim/nui.nvim' },
+    config = function() require('plugins/noice') end,
   }
 
   -- Mind for note taking 
