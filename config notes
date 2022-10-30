@@ -11,7 +11,21 @@ If you wanna run river, need to build it yourself
   * Need updated zig as well, so download that manually and put it in the path
 For audio, follow this
   * https://github.com/yurifuko/dotfiles/wiki/Guides
+    - basically: install pipewire and alsa-pipewire
+    - create pipewire config file at /etc/pipewire
+    - copy initial config from /usr/share/pipewire/pipewire.conf to /etc/pipewire/
+    - edit /etc/pipewire/pipewire.conf so the end looks like this:
+      ```
+      context.exec = [
+        { path = "/usr/bin/wireplumber" args = "" }
+        { path = "/usr/bin/pipewire" args = "-c pipewire-pulse.conf" }
+        ]
+      ```
+    - then make the alsa conf directory sudo mkdir -p /etc/alsa/conf.d/
+    - sudo ln -s /usr/share/alsa/alsa.conf.d/50-pipewire.conf /etc/alsa/conf.d
+    - sudo ln -s /usr/share/alsa/alsa.conf.d/99-pipewire-default.conf /etc/alsa/conf.d
   
 For fonts
   * fonts are located at /usr/share/fonts
   * can install nerd-fonts package for void
+  * then run sudo fc-cache -fv to make your system know it has new fonts
