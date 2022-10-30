@@ -29,3 +29,4 @@ For fonts
   * fonts are located at /usr/share/fonts
   * can install nerd-fonts package for void
   * then run sudo fc-cache -fv to make your system know it has new fonts
+  * then when actually using the font, use fc-list then use the name after the ".ttf:" to use that particular font
