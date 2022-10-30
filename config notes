@@ -11,3 +11,7 @@ If you wanna run river, need to build it yourself
   * Need updated zig as well, so download that manually and put it in the path
 For audio, follow this
   * https://github.com/yurifuko/dotfiles/wiki/Guides
+  
+For fonts
+  * fonts are located at /usr/share/fonts
+  * can install nerd-fonts package for void
