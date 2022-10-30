@@ -45,11 +45,11 @@ return require('packer').startup({ function(use)
   use "rafamadriz/friendly-snippets"
 
   -- Neorg, need neovim 0.8
-  use { "nvim-neorg/neorg",
+  --[[ use { "nvim-neorg/neorg",
    config = function() require('plugins/neorg') end,
    tag = "*",
    requires = "nvim-lua/plenary.nvim"
-  }
+  } ]]
 
   -- Autopairs
   use { "windwp/nvim-autopairs",

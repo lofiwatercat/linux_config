@@ -10,8 +10,16 @@
 
 # Note: the "Super" modifier is also known as Logo, GUI, Windows, Mod4, etc.
 
+# Stuff to run when river starts
+riverctl spawn pipewire
+riverctl spawn pipewire-pulse
+riverctl spawn bluetoothctl
+
 # Super+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
 riverctl map normal Super+Shift Return spawn foot
+
+# Mod+D to execute bemenu-run
+riverctl map normal Super D spawn bemenu-run
 
 # Super+Q to close the focused view
 riverctl map normal Super Q close
@@ -158,3 +166,4 @@ riverctl csd-filter-add app-id "gedit"
 # River will send the process group of the init executable SIGTERM on exit.
 riverctl default-layout rivertile
 rivertile -view-padding 6 -outer-padding 6
+
