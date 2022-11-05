@@ -6,6 +6,7 @@ Need to edit some network files for networkd
 Need to edit iwd's main.conf file
 
 ## For void
+Don't Forget the line to change for seatd
 If you wanna run river, need to build it yourself
   * Need to installl the devel versions of the libraries too
   * Need updated zig as well, so download that manually and put it in the path
