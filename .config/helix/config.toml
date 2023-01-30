@@ -1,9 +1,9 @@
-theme = "Onedark"
+theme = "monokai_pro"
 
 [editor]
 scrolloff = 7
 cursorline = true
-# bufferline = always
+bufferline = "multiple"
 
 [editor.file-picker]
 hidden = false
