@@ -13,10 +13,13 @@
 # Stuff to run when river starts
 riverctl spawn pipewire
 riverctl spawn pipewire-pulse
-riverctl spawn bluetoothctl
+riverctl spawn yambar
 
 # Super+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
 riverctl map normal Super+Shift Return spawn foot
+
+riverctl map normal Control+Shift S spawn 'grim -g "$(slurp)" \
+    ~/pictures/$(date +"%s_grim.png")'
 
 # Mod+D to execute bemenu-run
 riverctl map normal Super D spawn bemenu-run

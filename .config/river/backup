@@ -22,9 +22,10 @@ riverctl input 1267:12717:ELAN2841:00_04F3:31AD_Touchpad \
     middle-emulation enabled
 
 # Screenshot with grim and slurp
-riverctl map normal Control+Shift S spawn 'grim -g "$(slurp)" \
-    ~/pictures/$(date +"%s_grim.png")'
+riverctl map normal Control+Shift S spawn 'grim -g "$(slurp -d)" - | wl-copy'
 
+# riverctl map normal Control+Shift S spawn 'grim -g "$(slurp)" \
+#     ~/pictures/$(date +"%s_grim.png")'
 # run waybar
 riverctl spawn waybar
 

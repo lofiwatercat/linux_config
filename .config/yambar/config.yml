@@ -1,0 +1,13 @@
+bar:
+  height: 20
+  location: top
+  background: 000000ff
+
+  # GohuFont Nerd Font:style=uni-14
+  right:
+    - clock:
+        content:
+          - string: {text: , font: "GohuFont Nerd Font", right-margin: 10}
+          - string: {text: "{date}", right-margin: 50, font: "GohuFont Nerd Font"}
+          - string: {text: , font: "Font Awesome 5 Free:style=solid:size=12", right-margin: 10}
+          - string: {text: "{time}", right-margin: 50, font: "GohuFont Nerd Font"}
