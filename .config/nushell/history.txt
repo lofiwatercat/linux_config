@@ -1,0 +1,192 @@
+clear
+ls
+river
+echo $PATH
+echo Path
+cd .config
+ls
+cd nu
+cd nushell/
+ls
+cat history.txt
+hx env.nu
+clear
+env
+hx env.nu
+clear
+source env.nu
+echo Path
+path
+Path
+echo $env.PATH
+echo $env.HOME
+source env.nu
+echo $env.HOME
+echo $env.PATH
+river
+clear
+ls
+source env.nu
+echo $env.PATH
+echo $env.path
+echo $env.Path
+echo $env.PATH
+rver
+river
+clear
+ls
+$env.PATH
+echo $env.PATH
+clear
+ls
+hx config.nu
+clear
+git pull
+git push
+$env
+rg
+zig
+echo $env.PATH
+zg
+zig
+echo $env.PATH
+hide ~/bleh
+echo $env.PATH
+zig
+echo $env.PATH
+hx .config/nushell/env.nu
+clear
+source env.nu
+cd .config/nushell/
+source env.nu
+zig
+echo
+echo $env.PATH
+tmux
+clear
+zellij
+cargo install zellij
+hx env.nu
+source env.nu
+zig
+clear
+zellij
+clear
+hx env.nu
+clear
+source env.nu
+zellij
+clear
+rg
+cargo
+clear
+cd ~
+clear
+sudo restart now
+sudo shutdown now
+rver
+hx ~/.config/nushell/env.nu
+hx ~/.config/nushell/config.nu
+clear
+pwd
+cpwd
+clear
+cd projects/
+l
+ls
+clear
+ls
+ls | sort-by size | reverse 
+ps
+ps | where cpu > 5
+ps | where cpu > 3
+ps | where cpu > 1
+ps | where cpu > 5
+ps
+clear
+host
+sys | get host
+get host
+sys
+sys | get host.sessions
+sys | get host.sessions.name
+sys | get host.sessions.alan
+sys | get host.sessions.groups
+man ln
+man ls
+man ln
+clear
+clear
+l
+ls
+cd bevy_learning/
+l
+ls
+cd armored_core_simulator/
+ls
+clear
+ls
+cd src
+ls
+cd projects/
+cd bevy
+ls
+cd examples/
+cd ecs
+ls
+clear
+cd projects/
+cd bevy_learning/
+ls
+cd armored_core_simulator/
+cargo run
+hx ecs_guide.rs
+cd ..
+l
+ls
+hx hello_world.rs
+git pull
+hx hello_world.rs
+git fetch origin
+gt reset --hard origin/main
+git reset --hard origin/main
+clear
+git pull
+hx hello_world.rs
+cargo run --example hello_world
+c
+l
+clear
+ls
+hx ecs/ecs_gude
+ls
+clear
+hx ~/
+hx ~/.con
+clear
+ls
+ls -l
+ls -a
+ls -la
+hx ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+l
+la
+c
+pwd
+version | get features
+wl-clipboard
+clear
+wl-copy 
+wl-copy abcdefg
+wl-paste
+wl-copy abc defg
+wl-paste
+cd .config
+l
+cd .config
+l
+cd river
+l
+ls
+cd .config
