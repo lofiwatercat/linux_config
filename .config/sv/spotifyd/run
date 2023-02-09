@@ -1,0 +1,2 @@
+#!/bin/sh
+exec spotifyd 2>&1
