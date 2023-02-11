@@ -33,3 +33,14 @@ For fonts
   * then when actually using the font, use fc-list then use the name after the ".ttf:" to use that particular font
 
 If you delete /var/service (oops) then reinstall runit with -f
+
+## For river
+
+May need some packages like xf, polkit
+
+curl -O https://ziglang.org/download/0.9.1/zig-linux-x86_64-0.9.1.tar.xz
+tar -xvf zig-linux-x86_64-0.9.1.tar.xz
+cd zig-linux-x86_64-0.9.1 && ln -s "${PWD}/zig" "${HOME}/.local/bin"
+git clone https://github.com/riverwm/river && cd river && git submodule update --init
+sudo xbps-install -S wayland-devel wayland-protocols libevdev-devel wlroots-devel scdoc pkg-config xorg-server-xwayland
+zig build -Drelease-safe -Dxwayland --prefix ~/.local install
