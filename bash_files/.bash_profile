@@ -10,5 +10,5 @@ export PATH=$PATH:~/.local/bin
 # For firefox
 export MOZ_ENABLE_WAYLAND=1
 
-export EDITOR='nvim'
+export EDITOR='hx'
 export TERM='linux'

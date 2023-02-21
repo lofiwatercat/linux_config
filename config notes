@@ -36,7 +36,7 @@ If you delete /var/service (oops) then reinstall runit with -f
 
 ## For river
 
-May need some packages like xf, polkit
+May need some packages like xf, polkit, seatd
 
 curl -O https://ziglang.org/download/0.9.1/zig-linux-x86_64-0.9.1.tar.xz
 tar -xvf zig-linux-x86_64-0.9.1.tar.xz
