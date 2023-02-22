@@ -7,6 +7,7 @@ bemenu
 cryptsetup
 curl
 dbus
+dumb_runtime_dir
 exa
 firefox
 foot
@@ -31,7 +32,7 @@ pipewire
 pkg-config
 polkit
 scdoc
-elogind
+seatd
 void-docs-browse
 wayland-devel
 wayland-protocols
