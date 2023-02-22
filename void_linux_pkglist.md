@@ -1,7 +1,4 @@
-PAmix
 alsa-lib-devel
-alsa-pipewire
-alsa-utils
 base-system
 bemenu
 cryptsetup
