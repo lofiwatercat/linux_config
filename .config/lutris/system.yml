@@ -1,0 +1,3 @@
+system:
+  disable_runtime: false
+  game_path: ~/misc/games

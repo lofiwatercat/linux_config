@@ -31,7 +31,7 @@ pipewire
 pkg-config
 polkit
 scdoc
-seatd
+elogind
 void-docs-browse
 wayland-devel
 wayland-protocols
