@@ -6,9 +6,14 @@ Need to edit some network files for networkd
 Need to edit iwd's main.conf file
 
 ## For void
+
+Run this to install packages from the list
+
+xbps-install -S $(cat void_linux_pkglist.txt)
+
 Don't Forget the line to change for seatd
 If you wanna run river, need to build it yourself
-  * Need to installl the devel versions of the libraries too
+  * Need to install the devel versions of the libraries too
   * Need updated zig as well, so download that manually and put it in the path
 For audio, follow this
   * https://github.com/yurifuko/dotfiles/wiki/Guides
