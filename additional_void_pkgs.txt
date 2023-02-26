@@ -1,1 +1,2 @@
 mesa-dri-32bit
+vulkan-loader-32bit
