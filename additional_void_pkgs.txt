@@ -1,3 +1,5 @@
 mesa-dri-32bit
 mesa-vulkan-radeon-32bit
 vulkan-loader-32bit
+vkd3d
+vkd3d-32bit
