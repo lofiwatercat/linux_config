@@ -5,3 +5,5 @@ vkd3d
 vkd3d-32bit
 SDL_gfx
 SDL_gfx-32bit
+gegl
+gegl-32bit
