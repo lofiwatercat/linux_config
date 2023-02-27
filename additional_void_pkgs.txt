@@ -7,3 +7,4 @@ SDL_gfx
 SDL_gfx-32bit
 gegl
 gegl-32bit
+wine-mono
