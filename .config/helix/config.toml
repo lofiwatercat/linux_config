@@ -1,4 +1,4 @@
-theme = "monokai_pro"
+theme = "base16_default_dark"
 
 [editor]
 scrolloff = 7

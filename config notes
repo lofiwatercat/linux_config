@@ -49,3 +49,7 @@ cd zig-linux-x86_64-0.9.1 && ln -s "${PWD}/zig" "${HOME}/.local/bin"
 git clone https://github.com/riverwm/river && cd river && git submodule update --init
 sudo xbps-install -S wayland-devel wayland-protocols libevdev-devel wlroots-devel scdoc pkg-config xorg-server-xwayland
 zig build -Drelease-safe -Dxwayland --prefix ~/.local install
+
+## Setting up spotify_player
+cargo install spotify_player --no-default-features --features "pulseaudio-backend lyric-finder media-control image sixel notify"
+
