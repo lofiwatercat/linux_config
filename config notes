@@ -51,5 +51,5 @@ sudo xbps-install -S wayland-devel wayland-protocols libevdev-devel wlroots-deve
 zig build -Drelease-safe -Dxwayland --prefix ~/.local install
 
 ## Setting up spotify_player
-cargo install spotify_player --no-default-features --features "pulseaudio-backend lyric-finder media-control image sixel notify"
+cargo install spotify_player --no-default-features --features "pulseaudio-backend lyric-finder media-control image sixel"
 
