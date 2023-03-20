@@ -1,0 +1,7 @@
+[[language]]
+name = "rust"
+
+[[language]]
+name = "markdown"
+scope = "source.md"
+max-line-length = 100

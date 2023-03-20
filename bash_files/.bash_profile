@@ -15,6 +15,7 @@ export WINEPREFIX="$HOME/.wine"
 
 # For Lutris to detect AMD card
 #export DRI_PRIME=1
+#export MESA_LOADER_DRIVER_OVERRIDE=radeonsi
 
 export EDITOR='hx'
 export TERM='linux'
