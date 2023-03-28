@@ -4,6 +4,7 @@ theme = "base16_default_dark"
 scrolloff = 7
 cursorline = true
 bufferline = "multiple"
+line-number = "relative"
 
 [editor.file-picker]
 hidden = false

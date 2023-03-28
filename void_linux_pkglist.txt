@@ -7,6 +7,7 @@ dbus
 dumb_runtime_dir
 exa
 firefox
+fnott
 foot
 gcc
 git
@@ -14,6 +15,7 @@ grub-i386-efi
 grub-x86_64-efi
 helix
 libevdev-devel
+libnotify
 lutris
 lvm2
 mdadm
