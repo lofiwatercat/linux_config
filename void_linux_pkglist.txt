@@ -13,7 +13,6 @@ git
 grub-i386-efi
 grub-x86_64-efi
 gtk-layer-shell
-helix
 libevdev-devel
 libnotify
 lutris

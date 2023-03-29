@@ -16,7 +16,7 @@ cd ${HOME}/programs
 rm -rf river
 git clone https://github.com/riverwm/river 
 cd river && git submodule update --init
-sudo xbps-install -S wayland-devel wayland-protocols libevdev-devel wlroots-devel scdoc pkg-config xorg-server-xwayland
+xbps-install -S wayland-devel wayland-protocols libevdev-devel wlroots-devel scdoc pkg-config xorg-server-xwayland
 pwd
 zig build -Drelease-safe -Dxwayland --prefix ~/.local install
 
