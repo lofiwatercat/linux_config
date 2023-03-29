@@ -1,3 +1,4 @@
+#!/bin/bash
 mkdir ${HOME}/languages
 mkdir -p ${HOME}/.local/bin
 cd ${HOME}/languages

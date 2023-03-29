@@ -13,6 +13,7 @@ gcc
 git
 grub-i386-efi
 grub-x86_64-efi
+gtk-layer-shell
 helix
 libevdev-devel
 libnotify
@@ -30,6 +31,7 @@ pamixer
 pipewire
 pkg-config
 polkit
+rust-analyzer
 scdoc
 seatd
 void-docs-browse
@@ -40,6 +42,9 @@ wireplumber
 wl-clipboard
 wlroots-devel
 xorg-server-xwayland
+xdg-desktop-portal
+xdg-desktop-portal-wlr
 xtools
 xz
 yambar
+zip
