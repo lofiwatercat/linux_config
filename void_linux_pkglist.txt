@@ -1,4 +1,3 @@
-alsa-lib-devel
 base-system
 bemenu
 cryptsetup
@@ -41,9 +40,9 @@ wine
 wireplumber
 wl-clipboard
 wlroots-devel
-xorg-server-xwayland
 xdg-desktop-portal
 xdg-desktop-portal-wlr
+xorg-server-xwayland
 xtools
 xz
 yambar
