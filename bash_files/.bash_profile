@@ -19,3 +19,4 @@ export WINEPREFIX="$HOME/.wine"
 
 export EDITOR='hx'
 export TERM='linux'
+export XDG_CURRENT_DESKTOP=river
