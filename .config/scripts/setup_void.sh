@@ -21,3 +21,6 @@ ln -s ${linux_config}/.config/git/.gitconfig ${HOME}
 # Setup programs
 # river
 source install_river.sh
+
+# Setup languages
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
