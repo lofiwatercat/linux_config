@@ -5,10 +5,17 @@ fi
 if [[ ! -d ${HOME}/.local/bin ]]; then
   mkdir -p ${HOME}/.local/bin
 fi
+
 cd ${HOME}/languages
 curl -O https://ziglang.org/download/0.10.1/zig-linux-x86_64-0.10.1.tar.xz
 tar -xvf zig-linux-x86_64-0.10.1.tar.xz && rm zig-linux-x86_64-0.10.1.tar.xz
-cd zig-linux-x86_64-0.10.1 && ln -s ${PWD}/zig ${HOME}/.local/bin
+
+cd zig-linux-x86_64-0.10.1
+if [[ -f ${HOME}/.local/bin/zig ]]; then
+  rm ${HOME}/.local/bin/zig
+fi
+
+ln -s ${PWD}/zig ${HOME}/.local/bin
 if [[ ! -d ${HOME}/programs ]]; then
   mkdir ${HOME}/programs
 fi

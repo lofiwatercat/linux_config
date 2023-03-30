@@ -15,7 +15,7 @@ riverctl spawn pipewire
 riverctl spawn pipewire-pulse
 riverctl spawn yambar
 riverctl spawn fnott
-riverctl spawn "wbg ~/wallpapers/yamato_exploded_upscaled.jpg"
+riverctl spawn "wbg ~/.config/wallpapers/art_village.png"
 
 # Super+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
 riverctl map normal Shift Return spawn foot
