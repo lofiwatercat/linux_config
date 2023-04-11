@@ -27,6 +27,7 @@ netcat
 obs
 opendoas
 pamixer
+pam-devel
 pipewire
 pkg-config
 polkit
