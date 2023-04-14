@@ -29,9 +29,11 @@ netcat
 obs
 opendoas
 pamixer
+pam-devel
 pipewire
 pkg-config
 polkit
+river
 rust-analyzer
 scdoc
 seatd
