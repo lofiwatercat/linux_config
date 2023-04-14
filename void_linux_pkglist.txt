@@ -20,6 +20,8 @@ lvm2
 mdadm
 mesa-dri
 mesa-vaapi
+mpDris2
+playerctl
 mesa-vdpau
 mesa-vulkan-radeon
 nerd-fonts
