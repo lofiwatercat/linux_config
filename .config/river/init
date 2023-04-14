@@ -11,11 +11,16 @@
 # Note: the "Super" modifier is also known as Logo, GUI, Windows, Mod4, etc.
 
 # Stuff to run when river starts
-riverctl spawn pipewire
+riverctl spawn "pipewire & wireplumber"
 riverctl spawn pipewire-pulse
 riverctl spawn yambar
 riverctl spawn fnott
-riverctl spawn "wbg ~/.config/wallpapers/art_village.png"
+riverctl spawn "wbg ~/.config/wallpapers/art_village.jpg"
+riverctl spawn "mpd"
+riverctl spawn "playerctld daemon"
+# riverctl spawn "eww daemon && eww open bar_1"
+riverctl spawn "mpDris2"
+
 
 # Super+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
 riverctl map normal Shift Return spawn foot
