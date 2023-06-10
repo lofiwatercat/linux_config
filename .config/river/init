@@ -15,7 +15,8 @@ riverctl spawn "pipewire & wireplumber"
 riverctl spawn pipewire-pulse
 riverctl spawn yambar
 riverctl spawn fnott
-riverctl spawn "wbg ~/.config/wallpapers/art_village.jpg"
+riverctl spawn "wbg ~/.config/wallpapers/anime-gruv-light.png"
+# riverctl spawn "wbg ~/.config/wallpapers/art_village.jpg"
 riverctl spawn "mpd"
 riverctl spawn "playerctld daemon"
 # riverctl spawn "eww daemon && eww open bar_1"
