@@ -19,3 +19,7 @@ center = ["file-name"]
 [keys.normal.space]
 w = ":write"
 q = ":quit"
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 25
