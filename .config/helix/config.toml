@@ -5,6 +5,7 @@ scrolloff = 7
 cursorline = true
 bufferline = "multiple"
 line-number = "relative"
+text-width = 100
 
 [editor.file-picker]
 hidden = false
